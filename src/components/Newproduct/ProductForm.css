@@ -1,0 +1,40 @@
+.new-product-control{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.new-product-comp label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+   
+}
+.new-product-comp.invalid label{
+    color: red;
+}
+.new-product-comp.invalid input{
+    border-color: red;
+}
+
+.new-product-comp input{
+    font: inherit;
+    border-radius: 10px;
+    border: 1.5px solid rgb(7, 36, 116);
+    width: 20rem;
+    max-width: 100%;
+    padding: 0.5rem;
+}
+
+.new-product-action{
+    text-align: left;
+}
+
+@media (max-width: 768px){
+    .new-product-action{
+        text-align: center;
+    }
+}

@@ -1,0 +1,31 @@
+.new-product{
+    background-color: rgba(50, 197, 210, 0.681);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    margin: 1rem;
+    
+    
+    border-radius: 12px;
+    text-align: center;
+    
+}
+
+.new-product button{
+    font: inherit;
+    background-color:  rgb(46, 200, 235);
+    padding: 1rem 2rem;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-right: 1rem;
+    cursor: pointer;
+
+}
+.new-product button :hover,
+.new-product button:active {
+    background-color: rgb(50, 230, 224);
+    border: 1px rgb(129, 231, 183) ;
+
+}
+
+
